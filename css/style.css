@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.xadrez {
+    border: 1px solid black;
+    height: 550px;
+    width: 600px;
+    background-color: rgb(182, 119, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.xadrez .linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.xadrez .linha div:nth-child(even) {
+    background-color: black;
+    height: 60px;
+    width: 60px;
+}
+
+.xadrez .linha div:nth-child(odd) {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.xadrez .linha2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.xadrez .linha2 div:nth-child(even) {
+    background-color: black;
+    height: 60px;
+    width: 60px;
+}
+
+.xadrez .linha2 div:nth-child(odd) {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.xadrez .linha3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.xadrez .linha3 div:nth-child(even) {
+    background-color: black;
+    height: 60px;
+    width: 60px;
+}
+
+.xadrez .linha3 div:nth-child(odd) {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.xadrez .linha4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.xadrez .linha4 div:nth-child(even) {
+    background-color: black;
+    height: 60px;
+    width: 60px;
+}
+
+.xadrez .linha4 div:nth-child(odd) {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.xadrez .linha5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.xadrez .linha5 div:nth-child(even) {
+    background-color: black;
+    height: 60px;
+    width: 60px;
+}
+
+.xadrez .linha5 div:nth-child(odd) {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.xadrez .linha6 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.xadrez .linha6 div:nth-child(even) {
+    background-color: black;
+    height: 60px;
+    width: 60px;
+}
+
+.xadrez .linha6 div:nth-child(odd) {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.xadrez .linha7 {
+    display: flex;
+    flex-direction: row;
+}
+
+.xadrez .linha7 div:nth-child(even) {
+    background-color: black;
+    height: 60px;
+    width: 60px;
+}
+
+.xadrez .linha7 div:nth-child(odd) {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.xadrez .linha8 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.xadrez .linha8 div:nth-child(even) {
+    background-color: black;
+    height: 60px;
+    width: 60px;
+}
+
+.xadrez .linha8 div:nth-child(odd) {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
